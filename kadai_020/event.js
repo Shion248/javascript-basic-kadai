@@ -1,6 +1,6 @@
 const pressBtn = document.getElementById('btn');
+const text = document.getElementById('text');
 
 pressBtn.addEventListener('click', () => {
-    const text = document.getElementById('text');
     text.textContent = 'ボタンをクリックしました';
 });
